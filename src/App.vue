@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <titleHeader msg="Welcome to Your Vue.js App" />
+  <div id="app" class="bg-primary text-center">
+    <titleHeader />
     <heroPage /> 
 
   </div>
@@ -18,13 +18,6 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 @import "~bootstrap/dist/css/bootstrap.css";
 </style>
